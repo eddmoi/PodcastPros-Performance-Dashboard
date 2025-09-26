@@ -1,0 +1,189 @@
+Create a complete PodcastPros Productive Time Intelligence web platform with 7 interconnected pages, bold modern design, automated data processing, and English-only interface.
+
+SYSTEM OVERVIEW:
+Multi-page responsive website for executive productive time management with real-time data processing, CSV upload capabilities, and automated monthly updates.
+
+GLOBAL DESIGN SPECIFICATIONS:
+- Bold Color Palette: Electric Blue (#0066FF), Vibrant Cyan (#00FFFF), Bold Success Green (#00CC00), Alert Red (#FF0000), Championship Gold (#FFD700), Premium Silver (#C0C0C0), Rich Bronze (#CD7F32)
+- Modern Typography: Sans-serif fonts, bold headers, 16px base font size
+- Responsive Design: Desktop-first, tablet and mobile optimized
+- Professional Elements: Rounded corners (8px), box shadows, smooth transitions
+- Navigation Bar: Dashboard | Champions | Under Achievers | Productive Hours | Tracking | Data Upload | Roster
+
+LANGUAGE REQUIREMENTS:
+- English only throughout entire website
+- No Chinese, Japanese, Korean, or other non-Latin characters
+- English month abbreviations: Aug-25, Sep-25, Oct-25
+- Western number formatting only
+- All interface text, buttons, and messages in English
+
+EMPLOYEE DATA FOUNDATION:
+Complete roster of 18 employees with August 2025 productive hours:
+1. MK Tolete (ID: 1) - 114.65 hours
+2. Almeerah Nasheed (ID: 2) - 82.85 hours  
+3. Lavesh Advani (ID: 3) - 114.18 hours
+4. Hannah Gabiana (ID: 4) - 199.33 hours
+5. Pancho Maniquis (ID: 5) - 88.67 hours
+6. Ukthila Banuka (ID: 6) - 224.37 hours
+7. Ritz Villagonzalo (ID: 7) - 173.72 hours
+8. Abu Hurarah (ID: 8) - 146.80 hours
+9. Masood Mansha (ID: 9) - 131.57 hours
+10. Allona Mae (ID: 10) - 35.43 hours
+11. Raven Valerie (ID: 12) - 174.05 hours
+12. Eddierez Abarico (ID: 14) - 129.98 hours
+13. Mahmoud Shehata (ID: 15) - 0.00 hours
+14. Santiago Alvarez (ID: 17) - 0.00 hours
+15. Adnan Mazhar (ID: 18) - 100.42 hours
+16. Maheshni Gounden (ID: 19) - 0.00 hours
+17. Sakshi Jain (ID: 20) - 0.00 hours
+18. Nick Uresin (ID: 23) - 171.93 hours
+
+PAGE 1: DASHBOARD (Executive Overview)
+Header: "PodcastPros Productive Time Intelligence - August 2025"
+Background: Bold gradient Electric Blue (#0066FF) to Vibrant Cyan (#00FFFF)
+White text, 20px font size, center aligned
+
+LEFT SECTION: TOP PRODUCTIVE PERFORMERS
+Title: "Top Productive Performers" (Bold Green background #00CC00)
+Professional table with thick borders:
+Rank | Name | Productive Hours
+1 | Ukthila Banuka | 224.37 hours (Gold background #FFD700)
+2 | Hannah Gabiana | 199.33 hours (Silver background #C0C0C0)
+3 | Raven Valerie | 174.05 hours (Bronze background #CD7F32)
+
+RIGHT SECTION: 75% PRODUCTIVITY ALERT
+Title: "Below 75% Productive Time Alert" (Red background #FF0000)
+Current Status: "Everyone is Productive!" (Success Green background #00CC00)
+Message: "All 18 active employees exceed 75% productivity threshold"
+
+PAGE 2: CHAMPIONS HISTORY
+Title: "Champions History - Monthly Excellence Tracking"
+Bold Green theme (#00CC00) with Gold highlights
+Table Structure:
+Month | Champion | Hours | Runner-Up | Hours | Third Place | Hours
+Aug-25 | Ukthila Banuka | 224.37 | Hannah Gabiana | 199.33 | Raven Valerie | 174.05
+Sep-25 | [Auto-populate when data added]
+Oct-25 | [Auto-populate when data added]
+
+PAGE 3: UNDER ACHIEVERS HISTORY  
+Title: "Development Opportunities - Below 75% Tracking"
+Alert Red theme (#FF0000) with professional styling
+Table Structure:
+Month | Under Achiever 1 | Productivity % | Under Achiever 2 | Productivity % | Action Required
+Current Status: "No Development Alerts - Excellent Team Performance"
+Ready to populate when employees drop below 75% threshold
+
+PAGE 4: PRODUCTIVE HOURS MATRIX
+Title: "Productive Hours Matrix - Complete Employee Tracking"
+MANDATORY: Display ALL 18 employees in scrollable table:
+
+| Employee Name | ID | Aug-25 | Sep-25 | Oct-25 | Nov-25 | Dec-25 |
+|---------------|----|---------|---------|---------|---------|---------| 
+| MK Tolete | 1 | 114.65 | - | - | - | - |
+| Almeerah Nasheed | 2 | 82.85 | - | - | - | - |
+| Lavesh Advani | 3 | 114.18 | - | - | - | - |
+| Hannah Gabiana | 4 | 199.33 | - | - | - | - |
+| Pancho Maniquis | 5 | 88.67 | - | - | - | - |
+| Ukthila Banuka | 6 | 224.37 | - | - | - | - |
+| Ritz Villagonzalo | 7 | 173.72 | - | - | - | - |
+| Abu Hurarah | 8 | 146.80 | - | - | - | - |
+| Masood Mansha | 9 | 131.57 | - | - | - | - |
+| Allona Mae | 10 | 35.43 | - | - | - | - |
+| Raven Valerie | 12 | 174.05 | - | - | - | - |
+| Eddierez Abarico | 14 | 129.98 | - | - | - | - |
+| Mahmoud Shehata | 15 | 0.00 | - | - | - | - |
+| Santiago Alvarez | 17 | 0.00 | - | - | - | - |
+| Adnan Mazhar | 18 | 100.42 | - | - | - | - |
+| Maheshni Gounden | 19 | 0.00 | - | - | - | - |
+| Sakshi Jain | 20 | 0.00 | - | - | - | - |
+| Nick Uresin | 23 | 171.93 | - | - | - | - |
+
+Color coding: High hours (>150) Green, Medium hours (75-150) Yellow, Low hours (<75) Red
+Professional table with alternating row colors, sortable columns
+
+PAGE 5: PRODUCTIVITY TRACKING
+Title: "Productivity Tracking & Rankings Analysis"
+Track monthly Top 1, 2, 3 positions for each employee
+Table Structure:
+Employee Name | Aug-25 Rank | Sep-25 Rank | Oct-25 Rank | Total Top 3 | Legendary Performance
+Include ranking logic: 1st place (Gold), 2nd place (Silver), 3rd place (Bronze)
+Total column: Count of months in top 3 positions
+Legendary Performance: Advanced calculation for sustained excellence
+
+PAGE 6: DATA UPLOAD & MANAGEMENT
+Title: "Data Management Portal - CSV Upload & Processing"
+
+CSV UPLOAD INTERFACE:
+- Large drag-and-drop zone (Electric Blue borders #0066FF)
+- File format validation (CSV and Excel support)
+- Expected format display: "Emp No., Name, Month, Productive Hours, Hours, Productivity"
+
+SAMPLE CSV TEMPLATE (Downloadable):
+Emp No.,Name,Month,Productive Hours,Hours,Productivity
+1,MK Tolete,Aug-25,114:39:00,114.65,95.20
+2,Almeerah Nasheed,Aug-25,82:51:00,82.85,97.47
+4,Hannah Gabiana,Aug-25,199:20:00,199.33,97.76
+6,Ukthila Banuka,Aug-25,224:22:00,224.37,85.65
+
+PROCESSING FEATURES:
+- Real-time file validation with error reporting
+- Preview table before processing
+- Progress bars with status indicators
+- Success/error notifications (English only)
+- Automatic dashboard updates after successful upload
+- Backup and rollback capabilities
+
+PAGE 7: EMPLOYEE ROSTER
+Title: "Employee Roster Management"
+Complete professional table:
+Name | Employee ID
+MK Tolete | 1
+Almeerah Nasheed | 2
+Lavesh Advani | 3
+Hannah Gabiana | 4
+Pancho Maniquis | 5
+Ukthila Banuka | 6
+Ritz Villagonzalo | 7
+Abu Hurarah | 8
+Masood Mansha | 9
+Allona Mae | 10
+Raven Valerie | 12
+Eddierez Abarico | 14
+Mahmoud Shehata | 15
+Santiago Alvarez | 17
+Adnan Mazhar | 18
+Maheshni Gounden | 19
+Sakshi Jain | 20
+Nick Uresin | 23
+
+TECHNICAL AUTOMATION:
+- Real-time CSV processing with JavaScript
+- Automatic dashboard refresh after data upload
+- Dynamic top 3 recalculation with new data
+- 75% threshold monitoring with instant alerts
+- Cross-page data synchronization
+- Hour calculation: Hours = INT(Productive Hours * 24) + MINUTE(Productive Hours)/60
+
+RESPONSIVE DESIGN:
+- Desktop: Full multi-column layouts
+- Tablet: Two-column optimized arrangements  
+- Mobile: Single-column stacked design
+- Touch-friendly upload interface
+- Bold color impact maintained across all screen sizes
+
+INTERACTIVE FEATURES:
+- Sortable tables on all pages
+- Hover effects using bold color scheme
+- Smooth page transitions between sections
+- Professional loading animations
+- Real-time status indicators during uploads
+- Touch-friendly navigation for mobile
+
+ERROR HANDLING:
+- CSV format validation with specific error messages (English only)
+- Data type checking and automatic conversion
+- Missing data alerts with clear suggestions
+- Duplicate detection and handling options
+- Recovery options for failed uploads
+
+Create a complete, professional productive time intelligence platform that combines executive dashboard functionality with robust data management capabilities. The system must display all 18 employees consistently across all pages, use English-only interface, and provide functional CSV upload testing with real-time dashboard updates.
